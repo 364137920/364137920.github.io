@@ -130,7 +130,6 @@ function initOverlayout() {
 	});
 }
 
-
 // 配置公众号资料
 function initQRCode() {
 	// 移动端显示二维码, pc端鼠标悬浮会有二维码
@@ -144,9 +143,12 @@ function initQRCode() {
 			$('.logo-QR').fadeToggle(300);
 		});
 
-		$('#contact_me').click(function (e) {
-			alert("diuni");
-		});
+		if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))){
+			$('#logo').on('mouseup', function(){
+			 alert("丢你老母");
+			}
+			)};
+
 
 
 
