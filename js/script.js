@@ -136,10 +136,20 @@ function initQRCode() {
 	if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
 		console.log("移动端");
 
-		//如果点击就显示二维码
+/*		//如果点击就显示二维码
 		$('#logo').on("tap",function(){
 			$('.logo-QR').fadeToggle(300);
-		});
+		});*/
+
+		// First we check if you support touch, otherwise it's click:
+		let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
+		// or if you use jQuery:
+		$('#logo').on(touchEvent, someFunction){
+			$('.logo-QR').fadeToggle(300);
+		}
+
+
+
 
 	} else {
 		console.log("pc端");
