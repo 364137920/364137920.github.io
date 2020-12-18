@@ -15,24 +15,41 @@
 
     /*颜色板*/
     /*一级颜色*/
-    --color-primary: #1E2025;
-    --color-gray-100: #F5F5F5;
+    *--color-primary: #E0E0E0;
+     --color-gray-100: #E0E0E0;
     --color-gray-300: #E0E0E0;
     /*二级颜色*/
-    --color-primary-foreground: WHITE;
+    --color-primary-foreground: #3f4142;  /*名字*/
     --color-primary-background: var(--color-primary);
+
+
     /*三级颜色*/
     --color-text-profile: var(--color-primary-foreground);
-    --color-text-logo: WHITE;
-    --color-page-background: var(--color-gray-100);
+    --color-text-logo: WHITE; /*contact右下角*/
+
+--color-page-background: var(--color-gray-100);
 }
 
-div { cursor: pointer; }
+
+/*个人头像*/
+.lijunda_photo{
+    text-align: center;
+    background-color: #E0E0E0;
+
+}
+
+.lijunda_photo img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    padding: 3rem;
+}
+
 
 /*字体样式定义*/
 .title {
     font-family: var(--font-family-base);
-    font-size: 2.4rem;
+    font-size: 2rem;
     line-height: var(--line-height-base);
     font-weight: var(--font-extra-bold);
     letter-spacing: var(--letter-spacing-base);
@@ -124,18 +141,21 @@ body, html {
 /*设计师资料*/
 #profile {
     text-align: center;
-    padding: 2rem 1rem;
+    /*padding-top: -5rem;*/
+    margin-top: -2.5rem;
     background-color: var(--color-primary-background);
 }
 
 #my-name {
     color: var(--color-text-profile);
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.4rem;
 }
 
 #my-tag span{
     color: var(--color-text-profile);
-    margin: 0.2rem 0.4rem;
+    /*margin: 0.2rem 0.4rem;*/
+    text-decoration: none;
+    margin-bottom:4rem;
     display: inline-block;
 }
 

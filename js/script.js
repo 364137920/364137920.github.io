@@ -47,7 +47,10 @@ function getProfile() {
 		//通过js修改CSS样式表中的root样式表, root始终置于第一位
 		// 操作cssRules会触发COSR规则, chrome64后不支持本地执行, 修改主题暂时放弃此方式
 		// document.styleSheets[0].cssRules[0].style.setProperty('--color-primary-background', profile.bg);
-		$('#profile, #content .decoration').css("background-color", profile.bg);
+		//$('#profile, #content .decoration').css("background-color", profile.bg);
+
+		//直接背景变黑色
+		$('#profile, #content .decoration').css("background-color", "ffffff");
 	}
 
 	if (profileHtml) {
@@ -143,12 +146,13 @@ function initQRCode() {
 			$('.logo-QR').fadeToggle(300);
 		});
 
-		$("a.clicked").live("click", function(e){alert("link clicked!")});
-
 		$('#logo').on("mouseleave", function(){
 			console.log("logo触碰结束!");
 			$('.logo-QR').fadeToggle(300);
 		});
+
+		$('#logo').on("click", function(){
+			alert("hi");})
 	}
 }
 
