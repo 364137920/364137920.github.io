@@ -136,8 +136,8 @@ function initQRCode() {
 	if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
 		console.log("移动端");
 
-		$("#contact_me").on("tap",function(){
-			alert("丢你")
+		$('#contact_me').on("tap",function(){
+			alert("丢你");
 		});
 
 
@@ -147,6 +147,7 @@ function initQRCode() {
 			console.log("logo被触碰!");
 			$('.logo-QR').fadeToggle(300);
 		});
+
 		$('#logo').on("mouseleave", function(){
 			console.log("logo触碰结束!");
 			$('.logo-QR').fadeToggle(300);
