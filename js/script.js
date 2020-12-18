@@ -50,7 +50,7 @@ function getProfile() {
 		//$('#profile, #content .decoration').css("background-color", profile.bg);
 
 		//直接背景变黑色
-		$('#profile, #content .decoration').css("background-color", "ffffff");
+		//$('#profile, #content .decoration').css("background-color", "ffffff");
 	}
 
 	if (profileHtml) {
@@ -151,7 +151,7 @@ function initQRCode() {
 			$('.logo-QR').fadeToggle(300);
 		});
 
-		$('#logo').on("click", function(){
+		$('#logo').on("click",".contact_me", function(){
 			alert("hi");})
 	}
 }
