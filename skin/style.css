@@ -26,6 +26,11 @@
     --color-page-background: var(--color-gray-100);
 }
 
+.headline {
+    cursor: pointer;
+}
+
+
 /*字体样式定义*/
 .title {
     font-family: var(--font-family-base);

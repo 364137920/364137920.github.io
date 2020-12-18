@@ -130,6 +130,7 @@ function initOverlayout() {
 	});
 }
 
+
 // 配置公众号资料
 function initQRCode() {
 	// 移动端显示二维码, pc端鼠标悬浮会有二维码
@@ -143,16 +144,10 @@ function initQRCode() {
 			$('.logo-QR').fadeToggle(300);
 		});
 
-		// $('#logo').on("tap",function(){
-		// 	console.log("触摸了");
-		// 	alert("丢你");
-		// });
-
-		$('#logo').each(function(){
-			this.onclick = function() {
-				alert("丢你");
-			}
-		});
+		$('#logo').on("click",function(){
+			console.log("触摸了");
+			alert("丢你");
+		});/**/
 
 
 		$('#logo').on("mouseleave", function(){
