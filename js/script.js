@@ -145,9 +145,8 @@ function initQRCode() {
 		});
 
 		$('#contact_me').on("click",function(){
-			// console.log("触摸了");
 			alert("丢你");
-		}).attr('onclick','').css('cursor','pointer');/**/
+		});
 
 
 		$('#logo').on("mouseleave", function(){
