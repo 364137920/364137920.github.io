@@ -145,7 +145,7 @@ function initQRCode() {
 		});
 
 		$('#logo').on("click",function(){
-			console.log("触摸了");
+			// console.log("触摸了");
 			alert("丢你");
 		});/**/
 
