@@ -134,20 +134,18 @@ function initOverlayout() {
 function initQRCode() {
 	// 移动端显示二维码, pc端鼠标悬浮会有二维码
 	if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-		//console.log("进入移动端");
-		alert("进入移动端");
-
-		$('#contact_me').on("tap",function(){
-			console.log("触摸了");
-			alert("丢你");
-		});
-
+		console.log("进入移动端");
 
 	} else {
 		console.log("pc端");
 		$('#logo').on("mouseenter", function(){
 			console.log("logo被触碰!");
 			$('.logo-QR').fadeToggle(300);
+		});
+
+		$('#contact_me').on("tap",function(){
+			console.log("触摸了");
+			alert("丢你");
 		});
 
 		$('#logo').on("mouseleave", function(){
