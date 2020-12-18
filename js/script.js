@@ -143,10 +143,17 @@ function initQRCode() {
 			$('.logo-QR').fadeToggle(300);
 		});
 
-		$('#contact_me').on("tap",function(){
-			console.log("触摸了");
-			alert("丢你");
+		// $('#logo').on("tap",function(){
+		// 	console.log("触摸了");
+		// 	alert("丢你");
+		// });
+
+		$('#logo').each(function(){
+			this.onclick = function() {
+				alert("丢你");
+			}
 		});
+
 
 		$('#logo').on("mouseleave", function(){
 			console.log("logo触碰结束!");
