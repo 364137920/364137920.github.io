@@ -237,7 +237,6 @@ body, html {
 
 /*底部logo*/
 #logo {
-    cursor: pointer;    //为了让单击事件生效
     position: fixed;
     bottom: 0.8rem;
     right: 1.6rem;
