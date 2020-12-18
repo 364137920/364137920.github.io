@@ -135,6 +135,12 @@ function initQRCode() {
 	// 移动端显示二维码, pc端鼠标悬浮会有二维码
 	if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
 		console.log("移动端");
+
+		//如果点击就显示二维码
+		$('#logo').on("tap",function(){
+			$('.logo-QR').fadeToggle(300);
+		});
+
 	} else {
 		console.log("pc端");
 		$('#logo').on("mouseenter", function(){
