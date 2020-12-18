@@ -134,9 +134,10 @@ function initOverlayout() {
 function initQRCode() {
 	// 移动端显示二维码, pc端鼠标悬浮会有二维码
 	if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-		console.log("移动端");
+		console.log("进入移动端");
 
 		$('#contact_me').on("tap",function(){
+			console.log("触摸了");
 			alert("丢你");
 		});
 
