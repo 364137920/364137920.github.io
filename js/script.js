@@ -23,7 +23,7 @@ function getProfile() {
 	if (profile.name) {
 		profileHtml += `<h1 id="my-name" class="title">${profile.name}</h1>`;
 		// 修改页面的title
-		$('head title').text(profile.name + "-ArtOnWeb");
+		$('head title').text(profile.name + "-字体设计");
 	}
 	profileHtml += '<p id="my-tag" class="text-body">';
 	for (var i = 0; i < profile.tag.length; i++) {
@@ -143,13 +143,9 @@ function initQRCode() {
 			$('.logo-QR').fadeToggle(300);
 		});
 
-		var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false );
-		$('#logo').on('click touchstart', '.backtotop', function() {
-			if (iOS) {
-				$('html, body', parent.document).animate({ scrollTop: $("body").offset().top},1500,"easeOutQuart");
-			} else {
-				$('html, body').animate({ scrollTop: $("body").offset().top},1500,"easeOutQuart");
-			}
+		$('#logo').on("click", function(){
+			console.log("logo被触碰!");
+			$('.logo-QR').fadeToggle(300);
 		});
 
 		$('#logo').on("mouseleave", function(){
