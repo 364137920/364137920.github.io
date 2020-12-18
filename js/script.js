@@ -149,7 +149,7 @@ function initQRCode() {
 		// 	alert("丢你");
 		// });/**/
 
-		$('#contact_me').on("click", "button", function () {
+		$("a.clicked").live("click", function() {
 			alert("hahha");
 		});
 
