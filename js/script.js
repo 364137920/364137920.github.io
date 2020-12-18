@@ -144,9 +144,10 @@ function initQRCode() {
 			$('.logo-QR').fadeToggle(300);
 		});
 
-		$('#contact_me').on("click",function(){
-			alert("丢你");
+		$('#contact_me').click(function (e) {
+			alert("diuni");
 		});
+
 
 
 		$('#logo').on("mouseleave", function(){

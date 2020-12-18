@@ -3,8 +3,6 @@
 /*CSS变量定义, root必须始终置于第一位*/
 :root {
 
-    cursor: pointer;
-
     /*文字样式*/
     --font-family-base: "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; 
     --line-height-base: 1.2;
@@ -30,7 +28,6 @@
 }
 
 
-li {cursor: pointer}
 
 /*字体样式定义*/
 .title {
@@ -240,6 +237,7 @@ body, html {
 
 /*底部logo*/
 #logo {
+    cursor: pointer;    //为了让单击事件生效
     position: fixed;
     bottom: 0.8rem;
     right: 1.6rem;
