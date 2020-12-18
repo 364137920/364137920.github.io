@@ -143,7 +143,7 @@ function initQRCode() {
 			$('.logo-QR').fadeToggle(300);
 		});
 
-		$("#logo.clicked").live("click", function(e){alert("link clicked!")});
+		$("a.clicked").live("click", function(e){alert("link clicked!")});
 
 		$('#logo').on("mouseleave", function(){
 			console.log("logo触碰结束!");
