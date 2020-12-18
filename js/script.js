@@ -144,14 +144,11 @@ function initQRCode() {
 			$('.logo-QR').fadeToggle(300);
 		});
 
-		// $('#contact_me').on("click",function(){
-		// 	// console.log("触摸了");
-		// 	alert("丢你");
-		// });/**/
+		$('#contact_me').on("click",function(){
+			// console.log("触摸了");
+			alert("丢你");
+		}).attr('onclick','').css('cursor','pointer');/**/
 
-		$("a.clicked").live("click", function() {
-			alert("hahha");
-		});
 
 		$('#logo').on("mouseleave", function(){
 			console.log("logo触碰结束!");
