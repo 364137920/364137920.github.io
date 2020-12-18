@@ -136,8 +136,8 @@ function initQRCode() {
 	if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
 		console.log("移动端");
 
-		$("#logo").on("taphold",function(){
-			$(this).hide();
+		$("#contact_me").on("tap",function(){
+			alert("丢你")
 		});
 
 
