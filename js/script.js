@@ -143,14 +143,14 @@ function initQRCode() {
 			$('.logo-QR').fadeToggle(300);
 		});
 
-		if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))){
-			$('#logo').on('mouseup', function(){
-			 alert("丢你老母");
+		var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false );
+		$('#logo').on('click touchstart', '.backtotop', function() {
+			if (iOS) {
+				$('html, body', parent.document).animate({ scrollTop: $("body").offset().top},1500,"easeOutQuart");
+			} else {
+				$('html, body').animate({ scrollTop: $("body").offset().top},1500,"easeOutQuart");
 			}
-			)};
-
-
-
+		});
 
 		$('#logo').on("mouseleave", function(){
 			console.log("logo触碰结束!");
