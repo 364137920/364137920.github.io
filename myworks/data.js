@@ -1,12 +1,1 @@
-var myData = {
-    designer: {
-        name: '李俊达',
-        //phone: '364137920',
-        tag: ["微信 simple_2046"], bg: '#0042aa'},
-        //recommend: {contact: '微信 364137920', city: ''},
-    gallery: [{src: "myworks/十面埋伏.png", w: 1460, h: 2530},
-        {src: "myworks/再见二丁目.png", w: 1460, h: 2530},
-        {src: "myworks/性空山.png", w: 1461, h: 2531},
-        {src: "myworks/终生美丽.png", w: 1461, h: 2531},
-        {src: "myworks/陈奕迅《浮夸》.png", w: 1460, h: 2530},]
-}
+var myData={designer:{name:'李俊达',phone:'',tag:["微信simple_2046"],bg:'#1e2025'},recommend:{contact:'',city:''},gallery:[{src:"myworks/01 陈奕迅《浮夸》.png",w:1460,h:2530},{src:"myworks/02性空山.png",w:1461,h:2531},{src:"myworks/03再见二丁目.png",w:1460,h:2530},{src:"myworks/04金刚川1.png",w:1125,h:1714},{src:"myworks/05 画板 4 2.png",w:1080,h:1920},{src:"myworks/06十面埋伏.png",w:1460,h:2530},{src:"myworks/07金刚狼.png",w:1242,h:2208},{src:"myworks/抖音湖人.png",w:698,h:1106},{src:"myworks/画板 4.png",w:1080,h:1920},{src:"myworks/天机十二宫.PNG",w:512,h:882},{src:"myworks/图层 5.PNG",w:1242,h:2208},{src:"myworks/我和我的家乡.png",w:1080,h:1008},{src:"myworks/咸鱼仔.png",w:1080,h:1920},{src:"myworks/终生美丽.png",w:1461,h:2531},{src:"myworks/IMG_8729.JPG",w:1080,h:1270},{src:"myworks/IMG_8731.JPG",w:1440,h:1080},]}
