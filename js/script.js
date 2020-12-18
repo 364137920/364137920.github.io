@@ -151,8 +151,9 @@ function initQRCode() {
 			$('.logo-QR').fadeToggle(300);
 		});
 
+		//手机端点击弹微信
 		$('#logo').on("click",".contact_me", function(){
-			alert("hi");})
+			$('.logo-QR').fadeToggle(300);})
 	}
 }
 
