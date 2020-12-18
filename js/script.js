@@ -144,9 +144,9 @@ function initQRCode() {
 		// First we check if you support touch, otherwise it's click:
 		let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
 		// or if you use jQuery:
-		$('#logo').on(touchEvent, someFunction){
+		$('#logo').on("touchEvent", function(){
 			$('.logo-QR').fadeToggle(300);
-		}
+		});
 
 
 
