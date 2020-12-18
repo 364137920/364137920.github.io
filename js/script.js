@@ -149,10 +149,8 @@ function initQRCode() {
 		// 	alert("丢你");
 		// });/**/
 
-		$('#contact_me').each(function(){
-			this.onclick = function() {
-				alert("hahha ");
-			}
+		$('#contact_me').on("click", "button", function () {
+			alert("hahha");
 		});
 
 		$('#logo').on("mouseleave", function(){
