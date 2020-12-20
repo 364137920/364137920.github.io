@@ -67,14 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608261622542</updated>
-      <workItem from="1608261627066" duration="34488000" />
-    </task>
-    <task id="LOCAL-00013" summary="修改">
-      <created>1608274157676</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1608274157676</updated>
+      <workItem from="1608261627066" duration="34707000" />
     </task>
     <task id="LOCAL-00014" summary="修改">
       <created>1608274237416</created>
@@ -412,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608479393097</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1608479610839</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1608479610839</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
