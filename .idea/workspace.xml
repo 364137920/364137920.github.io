@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e20bf098-c7bf-4708-9b5d-67e9892d41da" name="默认的" comment="K">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myworks/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/myworks/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myworks/data的副本.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myworks/再见二丁目.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myworks/十面埋伏.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myworks/性空山.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myworks/终生美丽.png" beforeDir="false" afterPath="$PROJECT_DIR$/myworks/终生美丽.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myworks/陈奕迅《浮夸》.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,18 +13,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1loRmyMFwPGxZz3GmzLJumtayGr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/skin" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -62,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608261622542</updated>
-      <workItem from="1608261627066" duration="23800000" />
+      <workItem from="1608261627066" duration="25181000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1608269979302</created>
@@ -337,7 +333,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608297847972</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="K">
+      <created>1608300870935</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1608300870935</updated>
+    </task>
+    <task id="LOCAL-00041" summary="K">
+      <created>1608300881035</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1608300881035</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,6 +365,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="修改" />
     <MESSAGE value="K" />
     <option name="LAST_COMMIT_MESSAGE" value="K" />
