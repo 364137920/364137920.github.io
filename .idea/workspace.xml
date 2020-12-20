@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e20bf098-c7bf-4708-9b5d-67e9892d41da" name="默认的" comment="Merge remote-tracking branch 'origin/master'">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myworks/04浮夸.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworks/03陈奕迅《浮夸》.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myworks/08我和我的家乡.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myworks/09八佰.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myworks/10金刚川.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/lijunda.png" beforeDir="false" afterPath="$PROJECT_DIR$/skin/lijunda.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/qrcode_UIDesignScience-原图.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,14 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608261622542</updated>
-      <workItem from="1608261627066" duration="33956000" />
-    </task>
-    <task id="LOCAL-00010" summary="修改">
-      <created>1608273624341</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1608273624341</updated>
+      <workItem from="1608261627066" duration="34227000" />
     </task>
     <task id="LOCAL-00011" summary="修改">
       <created>1608273806164</created>
@@ -420,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608475122029</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1608478249733</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1608478249734</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
