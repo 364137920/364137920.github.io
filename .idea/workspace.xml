@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e20bf098-c7bf-4708-9b5d-67e9892d41da" name="默认的" comment="Merge remote-tracking branch 'origin/master'">
-      <change beforePath="$PROJECT_DIR$/myworks/03陈奕迅《浮夸》.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myworks/08我和我的家乡.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myworks/09八佰.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myworks/10金刚川.png" beforeDir="false" />
-    </list>
+    <list default="true" id="e20bf098-c7bf-4708-9b5d-67e9892d41da" name="默认的" comment="Merge remote-tracking branch 'origin/master'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,21 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608261622542</updated>
-      <workItem from="1608261627066" duration="34227000" />
-    </task>
-    <task id="LOCAL-00011" summary="修改">
-      <created>1608273806164</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1608273806164</updated>
-    </task>
-    <task id="LOCAL-00012" summary="修改">
-      <created>1608273954983</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1608273954983</updated>
+      <workItem from="1608261627066" duration="34488000" />
     </task>
     <task id="LOCAL-00013" summary="修改">
       <created>1608274157676</created>
@@ -417,7 +398,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608478249734</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1608479206651</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1608479206651</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1608479393097</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1608479393097</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
