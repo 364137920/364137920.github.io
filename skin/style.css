@@ -45,6 +45,39 @@
     padding: 3rem;
 }
 
+#name{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: -3rem;
+    padding-top:-10rem;
+    color: #3f4041;
+}
+
+/*微信*/
+#WeChat{
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.3rem;
+    padding-top:-10rem;
+    color: #3f4041;
+}
+
+/*个人简介var(--color-text-profile)*/
+#my_job{
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top:1rem;
+    margin-bottom:3rem;
+    font-weight: 600;
+    /*margin-bottom: 2rem;*/
+    color: #3f4041;
+    background-color: var(--color-primary-background)
+}
+
+
+
 
 /*字体样式定义*/
 .title {
@@ -70,6 +103,8 @@
     font-weight: var(--font-light);
     letter-spacing: var(--letter-spacing-base);
 }
+
+
 
 .caption {
     font-family: var(--font-family-base);
@@ -153,9 +188,10 @@ body, html {
 
 #my-tag span{
     color: var(--color-text-profile);
-    /*margin: 0.2rem 0.4rem;*/
     text-decoration: none;
     margin-bottom:4rem;
+    margin-top:-2rem;
+    font-size:0.5rem;
     display: inline-block;
 }
 

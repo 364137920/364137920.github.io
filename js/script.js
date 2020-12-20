@@ -151,10 +151,9 @@ function initQRCode() {
 			$('.logo-QR').fadeToggle(300);
 		});
 
-		//手机端点击弹微信
-		$('#contact_me').on("click", function(){
-			alert("1111")});
-			//$('.logo-QR').fadeToggle(300);})
+		// //手机端点击弹微信
+		// $('#contact_me').on("click", function(){
+		// 	//$('.logo-QR').fadeToggle(300);})
 	}
 }
 
