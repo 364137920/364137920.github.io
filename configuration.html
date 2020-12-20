@@ -217,7 +217,10 @@
                         image.onload=function(){
                             console.log("第" + i + "image.width" + image.width);
                             console.log("第" + i + "image.height" + image.height);
-                            dataGallery += `{src:"myworks/${file.name}",w:${image.width},h:${image.height}},`;
+                            //dataGallery += `{src:"myworks/${file.name}",w:${image.width},h:${image.height}},`;
+
+
+                            dataGallery += `{src:"https://cdn.jsdelivr.net/gh/364137920/364137920.github.io/myworks/${file.name}",w:${image.width},h:${image.height}},`;
                             image = null;
                         };
                         image.src = imgSrc;
