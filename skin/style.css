@@ -45,26 +45,27 @@
     padding: 3rem;
 }
 
-#name{
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.6rem;
-    font-weight: bold;
-    margin-top: -3rem;
-    padding-top:-10rem;
-    color: #3f4041;
-}
+/*#name{*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*    font-size: 1.6rem;*/
+/*    font-weight: bold;*/
+/*    margin-top: -3rem;*/
+/*    padding-top:-10rem;*/
+/*    color: #3f4041;*/
+/*}*/
 
-/*微信*/
-#WeChat{
-    text-align: center;
-    text-decoration: none;
-    font-size: 0.3rem;
-    padding-top:-10rem;
-    color: #3f4041;
-}
+/*!*微信*!*/
+/*#WeChat{*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*    font-size: 0.3rem;*/
+/*    padding-top:-10rem;*/
+/*    color: #3f4041;*/
+/*}*/
 
-/*个人简介var(--color-text-profile)*/
+
+/*个人简介*/
 #my_job{
     text-align: center;
     font-size: 0.7rem;

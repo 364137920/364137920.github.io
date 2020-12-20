@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e20bf098-c7bf-4708-9b5d-67e9892d41da" name="默认的" comment="哈哈">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skin/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/skin/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608261622542</updated>
-      <workItem from="1608261627066" duration="29249000" />
+      <workItem from="1608261627066" duration="29342000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1608269979302</created>
@@ -377,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608441038897</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="哈哈">
+      <created>1608441391761</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1608441391761</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
