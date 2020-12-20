@@ -2,9 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e20bf098-c7bf-4708-9b5d-67e9892d41da" name="默认的" comment="Merge remote-tracking branch 'origin/master'">
+      <change afterPath="$PROJECT_DIR$/myworks/01性空山.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myworks/02再见二丁目.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myworks/03十面埋伏.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myworks/04浮夸.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myworks/05终生美丽.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myworks/08我和我的家乡.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myworks/09八佰.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myworks/10金刚川.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myworks/11天机十二宫.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myworks/12抖音湖人.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.html" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworks/01 陈奕迅《浮夸》.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworks/02性空山.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworks/03再见二丁目.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworks/04金刚川1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworks/05 画板 4 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworks/06十面埋伏.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworks/IMG_8729.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworks/IMG_8731.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworks/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/myworks/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworks/咸鱼仔.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworks/图层 5.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworks/天机十二宫.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworks/我和我的家乡.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworks/抖音湖人.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworks/画板 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworks/终生美丽.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/skin/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,14 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608261622542</updated>
-      <workItem from="1608261627066" duration="32625000" />
-    </task>
-    <task id="LOCAL-00007" summary="修改">
-      <created>1608272974545</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1608272974545</updated>
+      <workItem from="1608261627066" duration="33541000" />
     </task>
     <task id="LOCAL-00008" summary="修改">
       <created>1608273276783</created>
@@ -415,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608448077309</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1608449354929</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1608449354929</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

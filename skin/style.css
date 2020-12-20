@@ -45,31 +45,31 @@
     padding: 3rem;
 }
 
-/*#name{*/
-/*    text-align: center;*/
-/*    text-decoration: none;*/
-/*    font-size: 1.6rem;*/
-/*    font-weight: bold;*/
-/*    margin-top: -3rem;*/
-/*    padding-top:-10rem;*/
-/*    color: #3f4041;*/
-/*}*/
+#name{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: -3rem;
+    padding-top:-10rem;
+    color: #3f4041;
+}
 
-/*!*微信*!*/
-/*#WeChat{*/
-/*    text-align: center;*/
-/*    text-decoration: none;*/
-/*    font-size: 0.3rem;*/
-/*    padding-top:-10rem;*/
-/*    color: #3f4041;*/
-/*}*/
+/*微信*/
+#WeChat{
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.3rem;
+    padding-top:-10rem;
+    color: #3f4041;
+}
 
 
 /*个人简介*/
 #my_job{
     text-align: center;
     font-size: 0.7rem;
-    margin-top:-3rem;
+    margin-top:1rem;
     margin-bottom:3rem;
     font-weight: 600;
     /*margin-bottom: 2rem;*/
