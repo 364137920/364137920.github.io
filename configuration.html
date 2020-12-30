@@ -148,9 +148,10 @@
     <div id="step-1" class="step">
         <h2 class="title">第1步：配置个人信息</h2>
         <p class="description">只填写需要的信息即可</p>
-        <p class="content">我的名字<input id="profile-name" name="profile-name" type="text" placeholder="设计小超人"/></p>
+<!--        <p class="content">我的名字<input id="profile-name" name="profile-name" type="text" placeholder="设计小超人"/></p>-->
+        <p class="content">我的名字<input id="profile-name" name="profile-name" type="text" value="李俊达"/></p>
         <p class="content">我的电话<input id="profile-phone" name="profile-phone" type="text" placeholder="666-8888-8888"></p>
-        <p class="content">个人标签<input id="profile-tag" name="profile-tag" type="text" placeholder="#就是帅;#就是美;#切图嗖嗖快"><span class="description">（标签之间用英文;隔开）</span></p>
+        <p class="content">个人标签<input id="profile-tag" name="profile-tag" type="text" value="微信simple_2046"><span class="description">（标签之间用英文;隔开）</span></p>
         <p class="content">信息区背景色<input id="profile-bg" name="profile-bg" type="color" value="#1E2025"></p>
     </div>
     <div id="step-2" class="step">
@@ -217,10 +218,10 @@
                         image.onload=function(){
                             console.log("第" + i + "image.width" + image.width);
                             console.log("第" + i + "image.height" + image.height);
-                            //dataGallery += `{src:"myworks/${file.name}",w:${image.width},h:${image.height}},`;
+                            dataGallery += `{src:"myworks/${file.name}",w:${image.width},h:${image.height}},`;
 
                             //使用jsdelivr加速
-                            dataGallery += `{src:"https://cdn.jsdelivr.net/gh/364137920/364137920.github.io/myworks/${file.name}",w:${image.width},h:${image.height}},`;
+                            //dataGallery += `{src:"https://cdn.jsdelivr.net/gh/364137920/364137920.github.io/myworks/${file.name}",w:${image.width},h:${image.height}},`;
 
                             //使用腾讯cos加速
 
